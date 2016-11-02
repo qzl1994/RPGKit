@@ -1,0 +1,403 @@
+<!DOCTYPE FSM>
+<FSM>
+    <statemachine>
+        <name>CharacterFSM</name>
+        <comment></comment>
+        <baseclass>CharacterFSM</baseclass>
+        <initialstate>Idle</initialstate>
+        <event>
+            <name>attack</name>
+            <comment></comment>
+        </event>
+        <event>
+            <name>death</name>
+            <comment></comment>
+        </event>
+        <event>
+            <name>stop_run</name>
+            <comment></comment>
+        </event>
+        <event>
+            <name>stop_skill</name>
+            <comment></comment>
+        </event>
+        <event>
+            <name>run</name>
+            <comment></comment>
+        </event>
+        <event>
+            <name>stop_attack</name>
+            <comment></comment>
+        </event>
+        <event>
+            <name>skill</name>
+            <comment></comment>
+        </event>
+        <output>
+            <name>OnSkillIn</name>
+            <comment></comment>
+        </output>
+        <output>
+            <name>OnAttackIn</name>
+            <comment></comment>
+        </output>
+        <output>
+            <name>OnIdleOut</name>
+            <comment></comment>
+        </output>
+        <output>
+            <name>OnDeathOut</name>
+            <comment></comment>
+        </output>
+        <output>
+            <name>OnRunIn</name>
+            <comment></comment>
+        </output>
+        <output>
+            <name>OnSkillOut</name>
+            <comment></comment>
+        </output>
+        <output>
+            <name>OnDeathIn</name>
+            <comment></comment>
+        </output>
+        <output>
+            <name>OnAttackOut</name>
+            <comment></comment>
+        </output>
+        <output>
+            <name>OnIdleIn</name>
+            <comment></comment>
+        </output>
+        <output>
+            <name>OnRunOut</name>
+            <comment></comment>
+        </output>
+        <state>
+            <name>Idle</name>
+            <comment></comment>
+            <incomeactions>
+                <action type="output">OnIdleIn</action>
+            </incomeactions>
+            <outcomeactions>
+                <action type="output">OnIdleOut</action>
+            </outcomeactions>
+            <transitions>
+                <transition type="simple">
+                    <name>run</name>
+                    <comment></comment>
+                    <condition>run</condition>
+                    <destination>Run</destination>
+                    <transite_destination></transite_destination>
+                    <transitionactions/>
+                </transition>
+                <transition type="simple">
+                    <name>attack</name>
+                    <comment></comment>
+                    <condition>attack</condition>
+                    <destination>Attack</destination>
+                    <transite_destination></transite_destination>
+                    <transitionactions/>
+                </transition>
+                <transition type="simple">
+                    <name>skill</name>
+                    <comment></comment>
+                    <condition>skill</condition>
+                    <destination>Skill</destination>
+                    <transite_destination></transite_destination>
+                    <transitionactions/>
+                </transition>
+                <transition type="simple">
+                    <name>death</name>
+                    <comment></comment>
+                    <condition>death</condition>
+                    <destination>Death</destination>
+                    <transite_destination></transite_destination>
+                    <transitionactions/>
+                </transition>
+            </transitions>
+        </state>
+        <state>
+            <name>Attack</name>
+            <comment></comment>
+            <incomeactions>
+                <action type="output">OnAttackIn</action>
+            </incomeactions>
+            <outcomeactions>
+                <action type="output">OnAttackOut</action>
+            </outcomeactions>
+            <transitions>
+                <transition type="simple">
+                    <name>stop_attack</name>
+                    <comment></comment>
+                    <condition>stop_attack</condition>
+                    <destination>Idle</destination>
+                    <transite_destination></transite_destination>
+                    <transitionactions/>
+                </transition>
+                <transition type="simple">
+                    <name>death</name>
+                    <comment></comment>
+                    <condition>death</condition>
+                    <destination>Death</destination>
+                    <transite_destination></transite_destination>
+                    <transitionactions/>
+                </transition>
+            </transitions>
+        </state>
+        <state>
+            <name>Run</name>
+            <comment></comment>
+            <incomeactions>
+                <action type="output">OnRunIn</action>
+            </incomeactions>
+            <outcomeactions>
+                <action type="output">OnRunOut</action>
+            </outcomeactions>
+            <transitions>
+                <transition type="simple">
+                    <name>stop_run</name>
+                    <comment></comment>
+                    <condition>stop_run</condition>
+                    <destination>Idle</destination>
+                    <transite_destination></transite_destination>
+                    <transitionactions/>
+                </transition>
+                <transition type="simple">
+                    <name>death</name>
+                    <comment></comment>
+                    <condition>death</condition>
+                    <destination>Death</destination>
+                    <transite_destination></transite_destination>
+                    <transitionactions/>
+                </transition>
+            </transitions>
+        </state>
+        <state>
+            <name>Death</name>
+            <comment></comment>
+            <incomeactions>
+                <action type="output">OnDeathIn</action>
+            </incomeactions>
+            <outcomeactions>
+                <action type="output">OnDeathOut</action>
+            </outcomeactions>
+            <transitions/>
+        </state>
+        <state>
+            <name>Skill</name>
+            <comment></comment>
+            <incomeactions>
+                <action type="output">OnSkillIn</action>
+            </incomeactions>
+            <outcomeactions>
+                <action type="output">OnSkillOut</action>
+            </outcomeactions>
+            <transitions>
+                <transition type="simple">
+                    <name>stop_skill</name>
+                    <comment></comment>
+                    <condition>stop_skill</condition>
+                    <destination>Idle</destination>
+                    <transite_destination></transite_destination>
+                    <transitionactions/>
+                </transition>
+                <transition type="simple">
+                    <name>death</name>
+                    <comment></comment>
+                    <condition>death</condition>
+                    <destination>Death</destination>
+                    <transite_destination></transite_destination>
+                    <transitionactions/>
+                </transition>
+            </transitions>
+        </state>
+    </statemachine>
+    <graphics>
+        <class classname="GStateSaver">
+            <meta classname="GSaver">
+                <data classname="GSaver"/>
+            </meta>
+            <data classname="GStateSaver">
+                <qstring name="stateName">Death</qstring>
+                <QPoint name="position">
+                    <int>5153</int>
+                    <int>4985</int>
+                </QPoint>
+            </data>
+        </class>
+        <class classname="GStateSaver">
+            <meta classname="GSaver">
+                <data classname="GSaver"/>
+            </meta>
+            <data classname="GStateSaver">
+                <qstring name="stateName">Idle</qstring>
+                <QPoint name="position">
+                    <int>5349</int>
+                    <int>5279</int>
+                </QPoint>
+            </data>
+        </class>
+        <class classname="GStateSaver">
+            <meta classname="GSaver">
+                <data classname="GSaver"/>
+            </meta>
+            <data classname="GStateSaver">
+                <qstring name="stateName">Attack</qstring>
+                <QPoint name="position">
+                    <int>5561</int>
+                    <int>5179</int>
+                </QPoint>
+            </data>
+        </class>
+        <class classname="GStateSaver">
+            <meta classname="GSaver">
+                <data classname="GSaver"/>
+            </meta>
+            <data classname="GStateSaver">
+                <qstring name="stateName">Run</qstring>
+                <QPoint name="position">
+                    <int>5383</int>
+                    <int>5133</int>
+                </QPoint>
+            </data>
+        </class>
+        <class classname="GStateSaver">
+            <meta classname="GSaver">
+                <data classname="GSaver"/>
+            </meta>
+            <data classname="GStateSaver">
+                <qstring name="stateName">Skill</qstring>
+                <QPoint name="position">
+                    <int>5543</int>
+                    <int>5343</int>
+                </QPoint>
+            </data>
+        </class>
+        <class classname="GTransitionSaver">
+            <meta classname="GSaver">
+                <data classname="GSaver"/>
+            </meta>
+            <data classname="GTransitionSaver">
+                <qstring name="stateName">Idle</qstring>
+                <int name="transition">0</int>
+                <qvaluelist name="points">
+                    <QPoint>
+                        <int>5354</int>
+                        <int>5217</int>
+                    </QPoint>
+                </qvaluelist>
+            </data>
+        </class>
+        <class classname="GTransitionSaver">
+            <meta classname="GSaver">
+                <data classname="GSaver"/>
+            </meta>
+            <data classname="GTransitionSaver">
+                <qstring name="stateName">Idle</qstring>
+                <int name="transition">1</int>
+                <qvaluelist name="points">
+                    <QPoint>
+                        <int>5464</int>
+                        <int>5207</int>
+                    </QPoint>
+                </qvaluelist>
+            </data>
+        </class>
+        <class classname="GTransitionSaver">
+            <meta classname="GSaver">
+                <data classname="GSaver"/>
+            </meta>
+            <data classname="GTransitionSaver">
+                <qstring name="stateName">Idle</qstring>
+                <int name="transition">2</int>
+                <qvaluelist name="points">
+                    <QPoint>
+                        <int>5451</int>
+                        <int>5375</int>
+                    </QPoint>
+                </qvaluelist>
+            </data>
+        </class>
+        <class classname="GTransitionSaver">
+            <meta classname="GSaver">
+                <data classname="GSaver"/>
+            </meta>
+            <data classname="GTransitionSaver">
+                <qstring name="stateName">Run</qstring>
+                <int name="transition">0</int>
+                <qvaluelist name="points">
+                    <QPoint>
+                        <int>5396</int>
+                        <int>5219</int>
+                    </QPoint>
+                </qvaluelist>
+            </data>
+        </class>
+        <class classname="GTransitionSaver">
+            <meta classname="GSaver">
+                <data classname="GSaver"/>
+            </meta>
+            <data classname="GTransitionSaver">
+                <qstring name="stateName">Attack</qstring>
+                <int name="transition">0</int>
+                <qvaluelist name="points">
+                    <QPoint>
+                        <int>5492</int>
+                        <int>5249</int>
+                    </QPoint>
+                </qvaluelist>
+            </data>
+        </class>
+        <class classname="GTransitionSaver">
+            <meta classname="GSaver">
+                <data classname="GSaver"/>
+            </meta>
+            <data classname="GTransitionSaver">
+                <qstring name="stateName">Skill</qstring>
+                <int name="transition">0</int>
+                <qvaluelist name="points"/>
+            </data>
+        </class>
+        <class classname="GTransitionSaver">
+            <meta classname="GSaver">
+                <data classname="GSaver"/>
+            </meta>
+            <data classname="GTransitionSaver">
+                <qstring name="stateName">Attack</qstring>
+                <int name="transition">1</int>
+                <qvaluelist name="points"/>
+            </data>
+        </class>
+        <class classname="GTransitionSaver">
+            <meta classname="GSaver">
+                <data classname="GSaver"/>
+            </meta>
+            <data classname="GTransitionSaver">
+                <qstring name="stateName">Idle</qstring>
+                <int name="transition">3</int>
+                <qvaluelist name="points"/>
+            </data>
+        </class>
+        <class classname="GTransitionSaver">
+            <meta classname="GSaver">
+                <data classname="GSaver"/>
+            </meta>
+            <data classname="GTransitionSaver">
+                <qstring name="stateName">Skill</qstring>
+                <int name="transition">1</int>
+                <qvaluelist name="points"/>
+            </data>
+        </class>
+        <class classname="GTransitionSaver">
+            <meta classname="GSaver">
+                <data classname="GSaver"/>
+            </meta>
+            <data classname="GTransitionSaver">
+                <qstring name="stateName">Run</qstring>
+                <int name="transition">1</int>
+                <qvaluelist name="points"/>
+            </data>
+        </class>
+    </graphics>
+</FSM>

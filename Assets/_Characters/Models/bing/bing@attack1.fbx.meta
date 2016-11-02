@@ -1,0 +1,290 @@
+fileFormatVersion: 2
+guid: e7152dd6de22cca47bf4c8007edf0dea
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Aim_icon
+    100002: Ankle_L
+    100004: Ankle_R
+    100006: BackA_M
+    100008: Bend_icon
+    100010: //RootNode
+    100012: Chest_M
+    100014: DeformationSystem
+    100016: Elbow_L
+    100018: Elbow_R
+    100020: FK_icon
+    100022: FKIK_icon
+    100024: Group
+    100026: Head_M
+    100028: Heel_L
+    100030: Heel_R
+    100032: Hip_L
+    100034: Hip_R
+    100036: iconsGroup
+    100038: IK_icon
+    100040: Knee_L
+    100042: Knee_R
+    100044: Main
+    100046: MiddleFinger1_L
+    100048: MiddleFinger1_R
+    100050: MiddleFinger2_R
+    100052: MiddleFinger3_R
+    100054: MiddleToe1_L
+    100056: MiddleToe1_R
+    100058: MiddleToe2_L
+    100060: MiddleToe2_R
+    100062: Neck_M
+    100064: Pole_icon
+    100066: Roll1_icon
+    100068: Roll_icon
+    100070: Root_icon
+    100072: Root_M
+    100074: Scapula_L
+    100076: Scapula_R
+    100078: Shoulder_L
+    100080: Shoulder_R
+    100082: ThumbFinger1_R
+    100084: ThumbFinger2_R
+    100086: ThumbFinger3_R
+    100088: Wrist_L
+    100090: Wrist_R
+    400000: Aim_icon
+    400002: Ankle_L
+    400004: Ankle_R
+    400006: BackA_M
+    400008: Bend_icon
+    400010: //RootNode
+    400012: Chest_M
+    400014: DeformationSystem
+    400016: Elbow_L
+    400018: Elbow_R
+    400020: FK_icon
+    400022: FKIK_icon
+    400024: Group
+    400026: Head_M
+    400028: Heel_L
+    400030: Heel_R
+    400032: Hip_L
+    400034: Hip_R
+    400036: iconsGroup
+    400038: IK_icon
+    400040: Knee_L
+    400042: Knee_R
+    400044: Main
+    400046: MiddleFinger1_L
+    400048: MiddleFinger1_R
+    400050: MiddleFinger2_R
+    400052: MiddleFinger3_R
+    400054: MiddleToe1_L
+    400056: MiddleToe1_R
+    400058: MiddleToe2_L
+    400060: MiddleToe2_R
+    400062: Neck_M
+    400064: Pole_icon
+    400066: Roll1_icon
+    400068: Roll_icon
+    400070: Root_icon
+    400072: Root_M
+    400074: Scapula_L
+    400076: Scapula_R
+    400078: Shoulder_L
+    400080: Shoulder_R
+    400082: ThumbFinger1_R
+    400084: ThumbFinger2_R
+    400086: ThumbFinger3_R
+    400088: Wrist_L
+    400090: Wrist_R
+    7400000: attack1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: attack1
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.43525776
+        functionName: OnAttack
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Group
+        weight: 1
+      - path: Group/Main
+        weight: 1
+      - path: Group/Main/DeformationSystem
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M/Chest_M
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M/Chest_M/Neck_M
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M/Chest_M/Scapula_L
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M/Chest_M/Scapula_R
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/BackA_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/Hip_L
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/Hip_L/Knee_L
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/Heel_L
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/Hip_R
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/Hip_R/Knee_R
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/Heel_R
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: Group/Main/DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: iconsGroup
+        weight: 1
+      - path: iconsGroup/Aim_icon
+        weight: 1
+      - path: iconsGroup/Bend_icon
+        weight: 1
+      - path: iconsGroup/FK_icon
+        weight: 1
+      - path: iconsGroup/FKIK_icon
+        weight: 1
+      - path: iconsGroup/IK_icon
+        weight: 1
+      - path: iconsGroup/Pole_icon
+        weight: 1
+      - path: iconsGroup/Roll1_icon
+        weight: 1
+      - path: iconsGroup/Roll_icon
+        weight: 1
+      - path: iconsGroup/Root_icon
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.33
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

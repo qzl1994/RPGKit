@@ -1,0 +1,304 @@
+fileFormatVersion: 2
+guid: 99bf51896ba6c45409538bfea0052f24
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: _M3_Anim_Data
+    100002: tarantula_Bone0
+    100004: tarantula_Bone1
+    100006: tarantula_Bone10
+    100008: tarantula_Bone11
+    100010: tarantula_Bone12
+    100012: tarantula_Bone13
+    100014: tarantula_Bone14
+    100016: tarantula_Bone15
+    100018: tarantula_Bone16
+    100020: tarantula_Bone17
+    100022: tarantula_Bone18
+    100024: tarantula_Bone19
+    100026: tarantula_Bone20
+    100028: tarantula_Bone21
+    100030: tarantula_Bone22
+    100032: tarantula_Bone23
+    100034: tarantula_Bone24
+    100036: tarantula_Bone25
+    100038: tarantula_Bone26
+    100040: tarantula_Bone27
+    100042: tarantula_Bone28
+    100044: tarantula_Bone29
+    100046: tarantula_Bone2_Root
+    100048: tarantula_Bone3
+    100050: tarantula_Bone30
+    100052: tarantula_Bone31
+    100054: tarantula_Bone32
+    100056: tarantula_Bone33
+    100058: tarantula_Bone34
+    100060: tarantula_Bone35
+    100062: tarantula_Bone36
+    100064: tarantula_Bone37
+    100066: tarantula_Bone38
+    100068: tarantula_Bone39
+    100070: tarantula_Bone43
+    100072: tarantula_Bone44_CHD
+    100074: tarantula_Bone4_Head
+    100076: tarantula_Bone5
+    100078: tarantula_Bone6
+    100080: tarantula_Bone62
+    100082: tarantula_Bone63_CSR
+    100084: tarantula_Bone67
+    100086: tarantula_Bone68
+    100088: tarantula_Bone69
+    100090: tarantula_Bone7
+    100092: tarantula_Bone70
+    100094: tarantula_Bone71
+    100096: tarantula_Bone72
+    100098: tarantula_Bone73
+    100100: tarantula_Bone8
+    100102: tarantula_Bone9
+    100104: tarantula_Bone_Root
+    100106: //RootNode
+    400000: _M3_Anim_Data
+    400002: tarantula_Bone0
+    400004: tarantula_Bone1
+    400006: tarantula_Bone10
+    400008: tarantula_Bone11
+    400010: tarantula_Bone12
+    400012: tarantula_Bone13
+    400014: tarantula_Bone14
+    400016: tarantula_Bone15
+    400018: tarantula_Bone16
+    400020: tarantula_Bone17
+    400022: tarantula_Bone18
+    400024: tarantula_Bone19
+    400026: tarantula_Bone20
+    400028: tarantula_Bone21
+    400030: tarantula_Bone22
+    400032: tarantula_Bone23
+    400034: tarantula_Bone24
+    400036: tarantula_Bone25
+    400038: tarantula_Bone26
+    400040: tarantula_Bone27
+    400042: tarantula_Bone28
+    400044: tarantula_Bone29
+    400046: tarantula_Bone2_Root
+    400048: tarantula_Bone3
+    400050: tarantula_Bone30
+    400052: tarantula_Bone31
+    400054: tarantula_Bone32
+    400056: tarantula_Bone33
+    400058: tarantula_Bone34
+    400060: tarantula_Bone35
+    400062: tarantula_Bone36
+    400064: tarantula_Bone37
+    400066: tarantula_Bone38
+    400068: tarantula_Bone39
+    400070: tarantula_Bone43
+    400072: tarantula_Bone44_CHD
+    400074: tarantula_Bone4_Head
+    400076: tarantula_Bone5
+    400078: tarantula_Bone6
+    400080: tarantula_Bone62
+    400082: tarantula_Bone63_CSR
+    400084: tarantula_Bone67
+    400086: tarantula_Bone68
+    400088: tarantula_Bone69
+    400090: tarantula_Bone7
+    400092: tarantula_Bone70
+    400094: tarantula_Bone71
+    400096: tarantula_Bone72
+    400098: tarantula_Bone73
+    400100: tarantula_Bone8
+    400102: tarantula_Bone9
+    400104: tarantula_Bone_Root
+    400106: //RootNode
+    7400000: run
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: run
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 15
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: _M3_Anim_Data
+        weight: 1
+      - path: tarantula_Bone_Root
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone2_Root
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone2_Root/tarantula_Bone67
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone2_Root/tarantula_Bone68
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone2_Root/tarantula_Bone69
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone2_Root/tarantula_Bone70
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone2_Root/tarantula_Bone71
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone2_Root/tarantula_Bone72
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone2_Root/tarantula_Bone73
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone3
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone3/tarantula_Bone12
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone3/tarantula_Bone13
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone3/tarantula_Bone14
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone3/tarantula_Bone15
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone4_Head
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone4_Head/tarantula_Bone16
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone4_Head/tarantula_Bone16/tarantula_Bone24
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone4_Head/tarantula_Bone16/tarantula_Bone24/tarantula_Bone32
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone5
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone5/tarantula_Bone17
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone5/tarantula_Bone17/tarantula_Bone25
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone5/tarantula_Bone17/tarantula_Bone25/tarantula_Bone33
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone6
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone6/tarantula_Bone18
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone6/tarantula_Bone18/tarantula_Bone26
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone6/tarantula_Bone18/tarantula_Bone26/tarantula_Bone34
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone7
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone7/tarantula_Bone19
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone7/tarantula_Bone19/tarantula_Bone27
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone7/tarantula_Bone19/tarantula_Bone27/tarantula_Bone35
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone8
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone8/tarantula_Bone20
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone8/tarantula_Bone20/tarantula_Bone28
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone8/tarantula_Bone20/tarantula_Bone28/tarantula_Bone36
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone9
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone9/tarantula_Bone21
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone9/tarantula_Bone21/tarantula_Bone29
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone9/tarantula_Bone21/tarantula_Bone29/tarantula_Bone37
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone10
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone10/tarantula_Bone22
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone10/tarantula_Bone22/tarantula_Bone30
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone10/tarantula_Bone22/tarantula_Bone30/tarantula_Bone38
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone11
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone11/tarantula_Bone23
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone11/tarantula_Bone23/tarantula_Bone31
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone11/tarantula_Bone23/tarantula_Bone31/tarantula_Bone39
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone62
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone0/tarantula_Bone1/tarantula_Bone63_CSR
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone43
+        weight: 1
+      - path: tarantula_Bone_Root/tarantula_Bone44_CHD
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .699999988
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
